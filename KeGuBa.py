@@ -7,3 +7,7 @@ print('Masukkan pilihanmu dengan huruf kecil semua!')
 while True:
     komputer = random.choice(pilihan)
     pemain = input("pilih salah satu antara rock, paper, scissors: ")
+    if pemain == komputer:
+        print(f'pilihanmu adalah {pemain}')
+        print(f'pilihan komputer adalah {komputer}')
+        print('Hasil Seri \n========Try Again========')
