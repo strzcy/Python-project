@@ -11,3 +11,17 @@ while True:
         print(f'pilihanmu adalah {pemain}')
         print(f'pilihan komputer adalah {komputer}')
         print('Hasil Seri \n========Try Again========')
+
+    elif pemain == 'rock' and komputer == 'scissors' :
+        print(f'pilihanmu adalah {pemain}')
+        print(f'pilihan komputer adalah {komputer}')
+        print('Kamu Menang!!! \n================Try Again================')
+    elif pemain == 'paper' and komputer == 'rock' :
+        print(f'pilihanmu adalah {pemain}')
+        print(f'pilihan komputer adalah {komputer}')
+        print('Kamu Menang!!! \n================Try Again================')
+    elif pemain == 'scissors' and komputer == 'paper' :
+        print(f'pilihanmu adalah {pemain}')
+        print(f'pilihan komputer adalah {komputer}')
+        print('Kamu Menang!!! \n================Try Again================')
+
