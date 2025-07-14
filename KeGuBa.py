@@ -37,3 +37,8 @@ while True:
         print(f'pilihanmu adalah {pemain}')
         print(f'pilihan komputer adalah {komputer}')
         print('Kamu Kalah \n================Try Again================')
+
+    else :
+        print("inputan kamu tidak valid!!!")
+    
+    
